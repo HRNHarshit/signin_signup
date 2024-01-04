@@ -1,0 +1,32 @@
+.sidebar {
+  width: 450px;
+  padding: 30px;
+}
+
+.welcome {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.about {
+  color: #9f9f9f;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.in_touch {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.in_touch > span {
+  color: #4fa558;
+  cursor: pointer;
+}
+
+.logo > img {
+  width: 350px;
+  height: 40px;
+}

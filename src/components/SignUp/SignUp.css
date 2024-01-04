@@ -1,0 +1,81 @@
+/* Container */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 190px;
+  padding-right: 130px;
+  gap: 18px;
+}
+
+/************** SignUp ****************/
+.form_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_container > img {
+  position: absolute;
+  top: -130px;
+}
+
+.form {
+  border-radius: 8px;
+  color: #fff;
+  background: #235e4a;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 5;
+}
+
+.form > span {
+  font-size: 24px;
+  font-weight: 600;
+  background: transparent;
+}
+
+.form_grp {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+  background: transparent;
+}
+
+.form_grp > label {
+  font-size: 12px;
+  font-weight: 600;
+  background: transparent;
+}
+
+.form_grp > label::after {
+  content: " *";
+  color: red;
+}
+
+.form_grp > input {
+  border: 1px solid #333;
+  border-radius: 4px;
+  width: 300px;
+  background: #fff;
+  padding: 12px;
+}
+
+.submit {
+  background-color: #2e9844;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  padding: 12px 16px 12px 16px;
+  margin-top: 40px;
+  cursor: pointer;
+  width: 300px;
+}
